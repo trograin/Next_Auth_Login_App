@@ -35,4 +35,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # You got through all the intro basic Next.js documentation
 
-This is a basic Next.js app, built with NextAuth.js for authentication with credentials or an OAuth login from providers like GitHub.
+This is a basic Next.js app, built with NextAuth.js for authentication. In this app NextAuth is used without a database, instead we will be using OAuth + JWT
+
+Here you will add your providers. You will find Documentation at https://next-auth.js.org/getting-started/introduction
+
+## files added for Auth
+In your app you will be adding options.ts inside /api/auth/[...nextauth]options.ts
+
+Providers can be found her:
+https://next-auth.js.org/providers/github 
