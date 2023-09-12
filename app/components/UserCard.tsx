@@ -27,6 +27,8 @@ export default function Card({ user, pagetype }: Props) {
     //     </div>
     // ) : null
 
+    // When you are pulling in images from an outside source
+    // you have to config those in the next.config.js in the app root
     const userImage = user?.image ? (
         <Image
             className="border-4 border-black dark:border-slate-500 drop-shadow-xl shadow-black rounded-full mx-auto mt-8"

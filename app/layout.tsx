@@ -15,6 +15,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  // Wrap the data in the AuthProvider you want to be protected and give access to the session data as well.
   return (
     <html lang="en">
       <body className={inter.className}>
