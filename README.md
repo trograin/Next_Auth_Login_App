@@ -7,10 +7,15 @@ This is a basic Next.js app, built with NextAuth.js for authentication. In this 
 Here you will add your providers. You will find Documentation at https://next-auth.js.org/getting-started/introduction
 
 ## files added for Auth
-In your app you will be adding options.ts inside /api/auth/[...nextauth]options.ts
+In your app you will be adding options.ts inside src/api/auth/[...nextauth]options.ts
 
 Providers can be found her:
 https://next-auth.js.org/providers/github 
+
+# Locking down the Whole app
+Adding middleware.ts in the root of the app with the oneliner found in it, lets you protect the whole app with NextAuth.js
+
+If adding a matcher to the middleware, you can choose what pages will be protected by NextAuth
 
 
 ## Getting Started
